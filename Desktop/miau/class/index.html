@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de modal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button type="button" id="btnMostrar">Mostrar Modal</button>
+    
+    <div class="modal">
+
+    <div>
+        <p>Mensaje Secreto</p>
+    <input type="text" name="mensajeSecreto" id="inputMensaje">
+
+    </div>
+    <div>
+        <p>Clave Secreta</p>
+    <input type="number" name="claveSecreta" id="inputClave">
+    </div>
+    
+    <br>
+    <div id="botones">
+        <button type="button" id="cifrar">Cifrar</button>
+         <br>
+        <button type="button" id="descifrar">Descifrar</button>
+    </div>
+    <br>
+    <button id="btnCerrar" type="button">X</button> 
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img/𝑨𝒊\ 𝑺𝒉𝒊𝒕𝒆𝒓𝒖\ _\ 𝘛𝘰𝘥𝘰𝘳𝘰𝘬𝘪\ 𝘚𝘩𝘰𝘵𝘰\ _\ -\ 115.jfif);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+
+#btnMostrar{
+    background: rgb(238, 134, 89);
+    color: #fff;
+    line-height: 50px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+}
+
+.modal{
+    width: 450px;
+    height: 380px;
+    border: 1px solid black;
+    background: rgba(51, 51, 51, 0.6);
+    margin: 50px auto;
+    display: none;
+}
+
+.mostrar-modal{
+    display: block;
+}
+
+.modal img{
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 10px auto;
+}
+.modal p{
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
+
+.modal button{
+    margin-bottom: 15px;
+    display: block;
+    margin: auto;
+    width: 50px;
+    line-height: 30px;
+    border-radius: 50%;
+    background: gray;
+    color: #fff;
+}
+
+#botones button{
+    display: block;
+    width: 90px;
+}
+
+#inputMensaje{
+    display: block;
+    margin: auto;
+}
+
+#inputClave{
+    display: block;
+    margin: auto;
+}
+
